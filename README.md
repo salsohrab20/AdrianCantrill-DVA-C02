@@ -4,11 +4,11 @@ Welcome to the **AWS Certified Developer - Associate (DVA-C02)** course reposito
  
 ## 📚 Course Overview
 
-The AWS Certified Solutions Architect is one of the most valuable and in-demand cloud certifications available. 🌟 It covers all the core AWS services and serves as a fantastic entry point into the most popular public cloud platform in the world today. 🌍
+The AWS Certified Developer - Associate (DVA-C02) is one of the most valuable and in-demand cloud certifications available. 🌟 It covers all the core AWS services and serves as a fantastic entry point into the most popular public cloud platform in the world today. 🌍
 
-Getting certified can boost your confidence and open doors to new job opportunities. However, it's the real-world skills you gain along the way that matter long-term. This course is designed not only to help you pass the SAA-C03 exam confidently but also to equip you with the skills you need for interviews and to function as a mid-level AWS Solutions Architect. 💼
+Getting certified can boost your confidence and open doors to new job opportunities. However, it's the real-world skills you gain along the way that matter long-term. This course is designed not only to help you pass the DVA-C02 exam confidently but also to equip you with the skills you need for interviews and to function as a mid-level AWS Solutions Architect. 💼
 
-I’ve crafted this course to align with the latest version of the AWS Certified Solutions Architect - Associate (SAA-C03) certification. Rather than updating old content, this course directly reflects the new structure, products, services, and architectures in the SAA-C03 exam. The course is constantly updated (weekly) to ensure it remains relevant. 📅
+I’ve crafted this course to align with the latest version of the AWS Certified Developer - Associate (DVA-C02) certification. Rather than updating old content, this course directly reflects the new structure, products, services, and architectures in the DVA-C02 exam. The course is constantly updated (weekly) to ensure it remains relevant. 📅
 
 ## 🗂️ Course Content
 
@@ -170,7 +170,7 @@ I’ve crafted this course to align with the latest version of the AWS Certified
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/9QIX/AdrianCantrill-SAA-C03.git
+   git clone [https://github.com/acantril/aws-dev-associate.git](https://github.com/acantril/aws-dev-associate.git)
    ```
 
 2. **Follow Along**:  
