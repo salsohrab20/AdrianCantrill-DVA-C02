@@ -22,6 +22,7 @@ Welcome back! In this lesson, we introduce **Elastic Compute Cloud (EC2)**, one 
 - **Instance States**:
 
   - **Running**: CPU, memory, disk, and networking charges apply.
+     (**CPU - how much processing can be acheived, memory - superfast area to store that's           currently being worked upon by instance , disk - disk like EBS where medium termed           data are stored , and networking - how instances communicates with other entities in AWS         and beyond)**)
   - **Stopped**: Only **storage charges** remain.
   - **Terminated**: All charges stop, but this action is **irreversible**.
 
@@ -36,17 +37,17 @@ Welcome back! In this lesson, we introduce **Elastic Compute Cloud (EC2)**, one 
 
 ![alt text](./Images/image-6.png)
 
-An **Amazon Machine Image (AMI)** is a pre-configured template that can be used to create EC2 instances. Think of it as similar to a **server image** in traditional on-premise setups.
+An **Amazon Machine Image (AMI)** is a pre-configured template that can be used to create EC2 instances (also an AMI can be created from an EC2 instance). Think of it as similar to a **server image** in traditional on-premise setups.
 
 ### AMI Features:
 
 1. **Permissions**:
-   - **Private AMI**: Only the owner can use it.
-   - **Public AMI**: Anyone can use it.
+   - **Private AMI**: Only the owner can use it. - Only owner can launch instance .
+   - **Public AMI**: Anyone can use it. - Anyone can launch instance .
    - **Explicit Permissions**: Specific AWS accounts can be granted access.
 2. **Volumes and Block Device Mapping**:
-   - **Boot Volume**: The main drive that boots the OS (e.g., C: in Windows).
-   - **Block Device Mapping**: Defines how volumes are presented to the OS.
+   - **Boot Volume(in Windows) / Root Volume(in Linux)**: The main drive that boots the OS (e.g., C: in Windows). Can contain extra volumes but has atleast one boot volume.
+   - **Block Device Mapping**: Links volumes that AMI has and determines how volumes are presented to the OS. - determines which volume is the Boot volume and which one is a Data volume. The OS expects to receive the volume associated with it as well as the ID or device ID. The block device mapping then links the volume to the device ID that the OS expects. Mapping between volumes and how the OS sees them.
 
 ## Connecting to EC2 Instances
 
