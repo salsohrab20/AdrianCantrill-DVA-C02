@@ -1,6 +1,6 @@
-# 🌟 AWS Certified Solutions Architect - Associate (SAA-C03) Course 🌟
+# 🌟 AWS Certified Developer - Associate (DVA-C02) Course 🌟
 
-Welcome to the **AWS Certified Solutions Architect - Associate (SAA-C03)** course repository! 🎓 This repository contains all the resources and materials you need to ace the course and prepare for the AWS Solutions Architect - Associate certification exam. 🚀
+Welcome to the **AWS Certified Developer - Associate (DVA-C02)** course repository! 🎓 This repository contains all the resources and materials you need to ace the course and prepare for the AWS Solutions Architect - Associate certification exam. 🚀
  
 ## 📚 Course Overview
 
