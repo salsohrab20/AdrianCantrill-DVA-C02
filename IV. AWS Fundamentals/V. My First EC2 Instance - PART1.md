@@ -23,7 +23,7 @@ In this demo lesson, we will walk through the process of creating and connecting
    - Choose the key pair type (default is RSA).
    - Select the file format for the private key:
      - **PEM** for MacOS, Linux, or modern Windows.
-     - **PPK** if you are using an older version of Windows with PuTTY.
+     - **PPK** if you are using an older version of Windows with PuTTY (Before Windows 7).
    - Click **Create Key Pair** and download the private key file. Store it securely, as you will only have one chance to download it.
 
 ### 3. Launch an EC2 Instance
