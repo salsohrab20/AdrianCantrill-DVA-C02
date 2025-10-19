@@ -61,12 +61,15 @@ Buckets are containers for objects and have the following features:
 
 ## Use Cases and Limitations
 
-- **Not a File System or Block Storage:** S3 is an object storage system and is not suitable for file-based or block storage needs. It is ideal for large-scale data storage and distribution, such as:
+- **Not a File System or Block Storage:** S3 is an **object storage system** and is not suitable for file-based or block storage needs. It is ideal for large-scale data storage and distribution, such as:
 
   - Movies and audio files
   - Large photo storage
   - Big data sets
   - IoT device data
+  - If you have a Windows server which needs to access a network file server then in that case     we cannnot use S3, that requires a Network file system.
+  - Its not a block storage then means it cannot be mounted as mount point like K:/ or /images     as done in Windows or in Linux.
+  - When dealing with virtual machines or instances you mount block storage to them, they are      basically virtual hard disks. In EC2 , its EBS which is Block storage. Block storage it        limited to one thing accessing it at a time, one instance in case of EBS. S3 doesn't have      that limitations and its not block storage.
 
 - **Offloading Data:** S3 is useful for offloading data from expensive compute instances. For example, storing blog images or audio files on S3 and configuring the blog to reference these files directly.
 
