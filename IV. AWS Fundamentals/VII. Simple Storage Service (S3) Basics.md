@@ -6,9 +6,12 @@ Welcome back! In this lesson, we'll dive into Amazon S3 (Simple Storage Service)
 
 Amazon S3 is a global storage platform designed for high availability and durability. Key characteristics include:
 
-- **Global Access:** S3 is available from all AWS regions and can be accessed from anywhere with an internet connection.
+- **Global Access:** S3 is available from all AWS regions(Global service) and can be accessed from anywhere with an internet connection. Its a public service.
 - **Regional Storage:** Data is stored in a specific AWS region at rest and remains in that region unless explicitly configured otherwise.
-- **Regional Resilience:** Data is replicated across Availability Zones (AZs) within the region and can be configured for cross-region replication.
+- **Regional Resilience:** Data is replicated across Availability Zones (AZs) within the region and can be configured for cross-region replication. S3 can tolerate the failure of a AZ and has capability to replicate data across AZs.
+
+<img width="866" height="401" alt="image" src="https://github.com/user-attachments/assets/6992f52f-3048-409d-9891-e1d9325b1557" />
+
 
 ## Key Concepts
 
