@@ -4,7 +4,7 @@ This lesson demonstrates how to use **AWS CloudFormation** to create and delete 
 
 ## Prerequisites
 
-- Ensure you are logged into your **AWS account**.
+- Ensure you are logged into your **AWS account(general)**.
 - Select the **Northern Virginia (us-east-1)** region.
 - Access the **CloudFormation console**.
 

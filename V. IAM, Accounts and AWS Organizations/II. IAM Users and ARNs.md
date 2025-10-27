@@ -39,7 +39,7 @@ ARNs uniquely identify resources in AWS, allowing for unambiguous interaction th
 An ARN is structured as follows:
 
 ```plaintext
-arn:partition:service:region:account-id:resource
+arn:partition:service:region:account-id:resource   - APSRAR
 ```
 
 ### Example Breakdown:

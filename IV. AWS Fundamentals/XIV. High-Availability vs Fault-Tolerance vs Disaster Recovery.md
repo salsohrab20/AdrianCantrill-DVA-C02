@@ -68,6 +68,8 @@ Disaster Recovery (DR) is a set of policies, tools, and procedures that enable t
 
 - A **plane's ejection seat** system. When everything else fails, DR processes ensure the safety of critical components and personnel, allowing recovery and rebuilding after a disaster.
 
+![img.png](Images/img.png)
+
 ## 4. **Differences Between HA, FT, and DR**
 
 ### High Availability (HA)

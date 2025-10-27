@@ -19,7 +19,8 @@ Key features:
 
 ![alt text](./Images/image-31.png)
 
-Route 53 handles domain registration by working directly with domain registries, the organizations responsible for managing top-level domains (TLDs). Here’s an overview of how domain registration works:
+Route 53 handles domain registration by working directly with **domain registries,** the organizations responsible for managing top-level domains (TLDs). **(.com, .io, .net)** => These are the companies which manages the top level domains , they have been delegated this responsibility from IANA who manage the root zone for DNS.
+These registry each manages one specific zone. Here’s an overview of how domain registration works:
 
 1. **Check Domain Availability**: Route 53 checks with the relevant registry (e.g., PIR for `.org` domains) to see if the domain is available for registration.
 2. **Create Zone File**: Once the domain is available, Route 53 creates a **zone file**. A zone file is essentially a database containing all DNS information for a particular domain. In this case, the domain being registered is `AnimalsForLife.org`.

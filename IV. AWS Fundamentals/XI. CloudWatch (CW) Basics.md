@@ -2,7 +2,7 @@
 
 ## Introduction to CloudWatch
 
-CloudWatch is a core AWS product that supports operational management, monitoring, and logging across other AWS services. It plays a vital role in AWS architectures by gathering, managing, and visualizing performance data and events, making it essential for keeping track of metrics, logs, and events.
+CloudWatch is a core AWS product that supports **operational management, monitoring, and logging** across other AWS services. It plays a vital role in AWS architectures by gathering, managing, and visualizing performance data and events, making it essential for keeping track of metrics, logs, and events.
 
 CloudWatch's primary functions are:
 
@@ -99,6 +99,7 @@ A data point is a single measurement sent to CloudWatch, containing:
 ![alt text](./Images/image-24.png)
 
 Dimensions allow you to filter and organize metrics. For example, you can track multiple EC2 instances' CPU utilization within the same metric, differentiating them using the `InstanceID` dimension.
+Dimensions are named value pair that enables cloudwatch to separate things or provide different perspectives of things within the same metric.
 
 ## Alarms in CloudWatch
 
