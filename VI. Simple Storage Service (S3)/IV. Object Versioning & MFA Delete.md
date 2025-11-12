@@ -1,6 +1,6 @@
 # AWS S3 Object Versioning and MFA Delete
 
-This lesson covers two essential Amazon S3 features: **Object Versioning** and **MFA Delete**. These topics are critical for both the AWS Solutions Architect - Associate (SAA-C03) exam and real-world projects. Let's dive into the details.
+This lesson covers two essential Amazon S3 features: **Object Versioning** and **MFA Delete**. These topics are critical for both the AWS Developer - Associate (DVA-C02) exam and real-world projects. Let's dive into the details.
 
 ## Object Versioning
 

@@ -74,10 +74,3 @@ Ideal for blogs and similar static content sites, leveraging S3’s efficiency a
 - Scalability for static and large-scale data hosting.
 - Simplified infrastructure management for static assets and backup pages.
 
-## Upcoming Demo
-
-The next lesson includes a practical demonstration of setting up a static website using S3, combining various theoretical concepts covered.
-
----
-
-Mark the video as complete to proceed to the hands-on demo.
