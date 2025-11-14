@@ -1,6 +1,6 @@
 # Learn Cantrill.io AWS SA-C03: S3 Object Storage Classes
 
-This document summarizes the key points from a lesson on S3 Object Storage Classes as part of the AWS SA-C03 course by Learn Cantrill.io. It highlights important concepts, cost structures, features, and scenarios for each S3 storage class.
+This document summarizes the key points from a lesson on S3 Object Storage Classes as part of the AWS DVA-C02 course by Learn Cantrill.io. It highlights important concepts, cost structures, features, and scenarios for each S3 storage class.
 
 ## 1. S3 Standard
 

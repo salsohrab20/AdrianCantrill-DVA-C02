@@ -1,6 +1,6 @@
 # Understanding S3 Encryption
 
-This summary provides a detailed breakdown of the Learn Cantrill.io AWS SA-C03 lesson on S3 encryption, focusing on **Server-Side Encryption (SSE)** and touching upon **Client-Side Encryption (CSE)**. The content is structured with headings and formatted for GitHub in Markdown.
+This summary provides a detailed breakdown of the Learn Cantrill.io AWS DVA-C02 lesson on S3 encryption, focusing on **Server-Side Encryption (SSE)** and touching upon **Client-Side Encryption (CSE)**. The content is structured with headings and formatted for GitHub in Markdown.
 
 ## Introduction to S3 Encryption
 
@@ -144,4 +144,4 @@ AWS performs encryption after data reaches S3. Several types of SSE offer differ
 - **SSE-S3** is the most common and user-friendly option for general use cases.
 - Choose **SSE-KMS** for compliance-heavy environments requiring fine-grained control.
 
-This structured approach ensures a comprehensive understanding of S3 encryption for AWS SA-C03.
+This structured approach ensures a comprehensive understanding of S3 encryption for AWS DVA-C02.

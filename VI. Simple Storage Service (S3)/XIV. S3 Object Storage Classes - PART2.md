@@ -1,4 +1,4 @@
-# Summary: Learn Cantrill.io AWS SA-C03 - S3 Storage Classes
+# Summary: Learn Cantrill.io AWS DVA-C02 - S3 Storage Classes
 
 This summary details the key points about AWS S3 storage classes as discussed in the provided lesson. It organizes the information for easy reference, focusing on the features, trade-offs, and use cases of each storage class.
 
