@@ -235,9 +235,15 @@ Once an EBS volume is detached from one instance, it can be attached to another.
 - `sudo mount /dev/xvdf /ebstest`: Mounts the volume.
 - `cd /ebstest && ls -la`: Confirms that data persists across instances.
 
-## Instance 3: Mounting the Volume in Another Availability Zone
+## Instance 3: Mounting the Volume in Another Availability Zone(Using snapshots)
 
 EBS volumes are restricted to a single AZ. To move a volume across AZs, a snapshot is created and restored in the target AZ.
+
+1. Right click on the EBS Volume , select Create snapshot.
+2. Provide the name of snapshot and click on create snapshot.
+3. Right click on snapshot and click on create volume.
+4. select a different availability zone and provide a tag name.
+5. Repeat steps mentioned in part1 to connect it to a different instance in provided availability zone.
 
 ### Steps:
 
