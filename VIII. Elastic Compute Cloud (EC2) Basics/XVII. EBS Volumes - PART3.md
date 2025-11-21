@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document summarizes the process of working with **Instance Store Volumes** in AWS as covered in the **LearnCantrill.io AWS SA C03 course**.  
+This document summarizes the process of working with **Instance Store Volumes** in AWS as covered in the **LearnCantrill.io AWS DVA-C02 course**.  
 We will explore how to create, mount, and test instance store volumes while understanding their ephemeral nature.
 
 ## Key Concepts
