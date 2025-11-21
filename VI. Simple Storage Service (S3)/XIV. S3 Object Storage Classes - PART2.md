@@ -31,6 +31,7 @@ This summary details the key points about AWS S3 storage classes as discussed in
   - **Restrictions**:
     - Objects can't be made public.
     - Retrieval jobs temporarily restore data to S3-Standard-IA.
+  - Are cold objects, they aren't warm and aren't ready for use instantly.
 
 ## **3. S3-Glacier Deep Archive**
 
@@ -45,6 +46,7 @@ This summary details the key points about AWS S3 storage classes as discussed in
     - **Bulk**: Up to 48 hours.
   - **Cost**: Lower than Glacier Flexible Retrieval.
   - **Restrictions**: Objects can't be made public.
+- Data here are in frozen states.
 
 ## **4. Intelligent Tiering**
 
@@ -75,4 +77,4 @@ This summary details the key points about AWS S3 storage classes as discussed in
 | S3-Glacier Deep Archive       | Cheapest            | Hours to days      | 180 days                     | Long-term archival rarely accessed.     |
 | S3 Intelligent Tiering        | Flexible, dynamic   | Varies by tier     | Varies by tier               | Data with changing or unknown patterns. |
 
-This summary provides the foundational knowledge required for AWS SA-C03 exam preparation and real-world applications of S3 storage classes. For more details, proceed with further lessons or AWS documentation.
+This summary provides the foundational knowledge required for AWS DVA-C02 exam preparation and real-world applications of S3 storage classes. For more details, proceed with further lessons or AWS documentation.
