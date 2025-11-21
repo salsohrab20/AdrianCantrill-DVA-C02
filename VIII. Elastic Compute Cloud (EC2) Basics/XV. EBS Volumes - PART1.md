@@ -28,6 +28,23 @@ Lesson commands are available here:
 
 ## Lesson Walkthrough
 
+### Create an EBS Volume 
+
+#### 1. Navigate to Volume
+_3 volumes would be present - belonging to EC2 instance created(Instance store)
+- Click on Create volume
+- Select volume type : GP3
+- Availability zone : us-east-1a
+- Also have an optional field to specify value of snapshot - if there's a need to restore a EBS using a snapshot choose this
+- Add tags - to identity the volume - EBSTestVolume
+- Click on create (notice the state of volume)4
+- Right click on the volume and select attach volume
+- Instance box would show only those devices beloning to same availability zone
+- Device name - /dev/sdf (if you want to interact with this instance inside os, this is the device to use)
+- Volume is attached and is in **In use** state
+- Navigate to EC2 dashboard, right click on the instance to which EBS is attached
+- Connect through EC2 connect and follow through the following steps. 
+
 ### Creating and Mounting an EBS Volume on EC2
 
 #### 1. List Block Devices
