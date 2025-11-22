@@ -1,16 +1,16 @@
-# AWS EC2 Instance Metadata - Learn Cantrill.io AWS SA C03
+# AWS EC2 Instance Metadata - Learn Cantrill.io AWS DVA C02
 
 ## Overview
 
 ![alt text](./Images/image-43.png)
 
-EC2 Instance Metadata is a crucial feature that allows instances to access data about themselves. It is frequently used in AWS exams and real-world implementations for configuring and managing instances.
+EC2 Instance Metadata is a crucial feature that **allows instances to access data about themselves**. It is frequently used in AWS exams and real-world implementations for configuring and managing instances.
 
 ## Key Points
 
 - Instance metadata provides information about the instance, such as networking, authentication, and security details.
 - It is accessible inside all instances using the IP `169.254.169.254`.
-- There is no authentication or encryption for metadata access.
+- There is **_no authentication or encryption for metadata access_**.
 - Metadata is used for instance roles, temporary credentials, SSH keys, and user data for automation.
 - Public IPv4 addresses are not directly visible to the operating system; they are managed by the Internet Gateway.
 
