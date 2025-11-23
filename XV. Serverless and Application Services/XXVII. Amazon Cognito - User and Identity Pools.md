@@ -1,5 +1,7 @@
 # Amazon Cognito
 
+![img_1.png](img_1.png)
+
 ## Overview
 
 Amazon Cognito is a key AWS identity product that handles:
@@ -51,7 +53,7 @@ User Pools offer:
 JWTs from User Pools:
 
 - Can be used for **API Gateway** authentication
-- **Cannot be used** to access most AWS services directly (e.g., S3, DynamoDB)
+- **Cannot be used** to access most AWS services directly (e.g., S3, DynamoDB) - requires AWS credentials.
 
 ## 2. Cognito Identity Pools
 
@@ -88,7 +90,8 @@ Identity Pools:
 4. Identity Pool assumes an **IAM Role**
 5. **Temporary AWS credentials** are returned to the app
 
-> These credentials are short-lived and automatically rotated.
+> These credentials are short-lived and automatically rotated. 
+> The swapping of any external ID provider token for AWS credentials is known as Web Identity Federation.
 
 ### Role Configuration
 
@@ -168,4 +171,4 @@ Swapping an external identity token for AWS credentials.
 - **Identity Pools**: Think **"authorization"** to AWS services
 - They can be **used together** for a seamless identity solution
 
-> Mastering the difference between these two is essential for the **SAA-C03 exam** and real-world AWS architecture.
+> Mastering the difference between these two is essential for the **DVA-C02 exam** and real-world AWS architecture.
