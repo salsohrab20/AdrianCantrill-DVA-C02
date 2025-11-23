@@ -33,7 +33,7 @@ To grasp the difference intuitively:
   - These are measured as **transactions per second to the SQS API**.
 
 - **Queue Naming**:
-  - Must end in `*.fifo`.
+  - **Must end in `*.fifo`.**
   - Example: `order-processing.fifo`.
 
 ### Exam Tip
