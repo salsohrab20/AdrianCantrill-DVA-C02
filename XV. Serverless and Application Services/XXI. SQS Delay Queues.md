@@ -3,7 +3,7 @@
 
 ![alt text](./Images/image-40.png)
 
-This guide summarizes the key concepts, differences, and use cases of **Delay Queues** and **Visibility Timeout** in **Amazon SQS**, based on the Learn Cantrill.io AWS SA-C03 course.
+This guide summarizes the key concepts, differences, and use cases of **Delay Queues** and **Visibility Timeout** in **Amazon SQS**, based on the Learn Cantrill.io AWS DVA-C02 course.
 
 ## Core Concepts
 
