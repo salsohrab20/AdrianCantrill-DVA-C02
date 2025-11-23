@@ -1,4 +1,4 @@
-Here's a detailed and well-structured summary of the **AWS SQS (Simple Queue Service)** lesson from the LearnCantrill.io AWS SA-C03 course, formatted in Markdown for GitHub. This summary includes proper section headings, line-by-line code explanation where needed, and elaborates on concepts where useful.
+Here's a detailed and well-structured summary of the **AWS SQS (Simple Queue Service)** lesson from the LearnCantrill.io AWS DVA-C02 course, formatted in Markdown for GitHub. This summary includes proper section headings, line-by-line code explanation where needed, and elaborates on concepts where useful.
 
 # AWS SQS (Simple Queue Service)
 
@@ -75,6 +75,10 @@ SQS enables separation of application concerns:
    - Transcodes video into multiple sizes.
    - Stores results in another S3 bucket.
    - Deletes message from SQS.
+   
+- The auto-scaling running the worker pool is constantly looking at the length of the queue
+  .When the message appears on the queue , the autoscaling group on the worker pool scales out, add another instances and those instance poll the queue and retrieve the messages.
+  . Additionally the size of the worker pool will scale back in as the workload decreases.
 
 ### Benefits:
 
