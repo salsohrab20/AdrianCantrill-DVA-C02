@@ -2,6 +2,8 @@
 
 ## Overview
 
+AWS Lambda is FaaS. Best practices is to create function that is small, focused and do one thing very well. Putting a full application inside a lambda function is not recommended.
+
 AWS Step Functions is a serverless orchestration service that enables you to build complex workflows using a concept called **state machines**. This lesson explores why Step Functions were introduced, their advantages over AWS Lambda for certain use cases, the types of states available, and an example architecture (the "Pet Cuddle-a-tron").
 
 ## Why Use Step Functions?
@@ -40,7 +42,7 @@ Think of it like an Amazon order:
 ### Execution Duration
 
 - **Standard Workflows**: Up to **1 year**
-- **Express Workflows**: Up to **5 minutes**, optimized for **high-volume**, **event-driven** workloads like:
+- **Express Workflows**: Up to **5 minutes**, optimized for **high-volume**, **event-driven** workloads like(need much more transactional guarantees):
   - IoT
   - Streaming data
   - Mobile backends

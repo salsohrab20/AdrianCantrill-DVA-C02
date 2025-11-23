@@ -95,6 +95,7 @@ Kinesis Stream / Firehose / Lambda (Output)
 - **Election data**
 - **Real-time metrics for security or operations**
 - **Complex stream data transformations**
+- **Manages really complex manipulation of data** 
 
 ## Comparison: Kinesis Firehose vs Kinesis Data Analytics
 
