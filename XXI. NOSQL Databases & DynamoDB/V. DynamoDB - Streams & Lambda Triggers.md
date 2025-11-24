@@ -68,6 +68,7 @@ This helps in scenarios where items are added or removed entirely.
 ![alt text](./Images/image-9.png)
 
 A **trigger** is a serverless mechanism that automatically **invokes a Lambda function** in response to changes in a DynamoDB table.
+Stream is the foundation of the architecture called **database triggers.**
 
 ### Architecture Overview
 
