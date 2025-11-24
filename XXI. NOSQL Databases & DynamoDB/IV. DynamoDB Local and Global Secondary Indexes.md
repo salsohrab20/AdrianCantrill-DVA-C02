@@ -15,7 +15,7 @@ Indexes allow you to create **alternative views** of your table’s data, improv
   - Optional use of a **sort key** range.
   - For other attributes, you'd be forced to use **Scan**, which is inefficient.
 
-## Local Secondary Indexes (LSI)
+## Local Se~condary Indexes (LSI)
 
 ![alt text](./Images/image-6.png)
 

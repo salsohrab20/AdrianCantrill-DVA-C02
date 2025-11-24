@@ -40,13 +40,19 @@
 
 ## DAX Architecture
 
+DAX is a cluster service where nodes are placed into different availability zones.
+
 ![alt text](./Images/image-12.png)
+
+> Note : DynamoDB is a public service, but DAX is not, it is private service deployed within VPC.
 
 - **Deployed within a VPC** and spans **multiple AZs** for high availability.
 - **DAX Cluster Components:**
   - **Primary Node**: Handles read/write and replicates to replicas.
   - **Replica Nodes**: Handle read-only traffic.
 - Accessed through a **single cluster endpoint** (like RDS).
+
+> Primary nodes supports Write operation and Replica nodes supports Read operation.
 
 ### Two Types of Caches
 

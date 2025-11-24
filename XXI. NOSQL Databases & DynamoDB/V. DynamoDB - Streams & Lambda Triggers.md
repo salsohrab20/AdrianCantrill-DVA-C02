@@ -98,7 +98,7 @@ Stream is the foundation of the architecture called **database triggers.**
 - **Inventory Management**: React to stock level updates.
 - **Cost Optimization**: React only to events (no polling needed).
 
-## Key Exam Takeaways (AWS SAA-C03)
+## Key Exam Takeaways (AWS DVA-C02)
 
 - **Streams + Lambda** = Triggers.
 - Enables **serverless event-driven architecture** for DynamoDB.
@@ -148,3 +148,4 @@ def lambda_handler(event, context):
 - **Stream View Types** control what data is logged.
 - **Triggers** combine Streams with Lambda for serverless reaction to data changes.
 - Enables scalable, event-driven use cases like **reporting**, **notifications**, and **real-time processing**.
+
