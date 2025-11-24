@@ -87,6 +87,7 @@ DAX is a cluster service where nodes are placed into different availability zone
 - You need **sub-millisecond response times**.
 - High RCU cost is a concern.
 - You want seamless integration with DynamoDB.
+- For tables that requires high RCU values, we can make use of DAX to reduce cost.
 
 ### Avoid DAX if:
 

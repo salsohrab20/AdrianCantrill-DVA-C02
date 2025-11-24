@@ -21,6 +21,7 @@ This is especially useful for:
 - Changes in one region are **asynchronously** propagated to other regions.
 - Replication uses a **"last write wins"** strategy to resolve conflicts.
 
+> **Last write wins** : Any event that has got the same piece of data being written to two different tables at around the same time then the DynamoDB will pick the most recent write and will replicate that to all the other replica tables
 ### 2. **Conflict Resolution**
 
 - When multiple writes happen on the same item at nearly the same time across regions, the **latest write (based on timestamp)** is retained.
@@ -66,6 +67,8 @@ Here’s what to remember for the AWS Certified Solutions Architect Associate ex
 | Architecture Type         | **Multi-master** (all tables are peers)              |
 | Implementation Complexity | **Low**, simple setup via console or API             |
 | Best Use Cases            | Global apps, DR, regional latency optimization       |
+
+> **Last write wins** : Any event that has got the same piece of data being written to two different tables at around the same time then the DynamoDB will pick the most recent write and will replicate that to all the other replica tables
 
 ## Summary Points
 
