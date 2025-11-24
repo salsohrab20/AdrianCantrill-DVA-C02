@@ -31,6 +31,8 @@ _Animals for Life_ has mobile teams that need real-time information on local vet
 - **Athena** allows querying this directly using **Schema-on-Read**.
 - No data ingestion or transformation is needed.
 
+> Athena is not loading any data into the table at this point. **Athena doesn't stores any data**, we are simple specifying the data location.
+
 **Data Elements in OSM**:
 
 - **Nodes**: Points with metadata (e.g., places, clinics).

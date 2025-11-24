@@ -31,7 +31,7 @@ Athena uses a **Schema on Read** approach:
 - Schema translates data -> relational-like when read.
 - When you define a **schema**, it acts like a **lens** that interprets the structure of raw data at **query time**.
 
-> Unlike traditional databases that require data to be **loaded** and **structured** before querying, Athena reads and interprets data on the fly using predefined schema.
+> Unlike traditional databases that require data to be **loaded** and **structured** before querying, Athena reads and interprets data **on the fly** using predefined schema.
 
 ## How It Works
 
