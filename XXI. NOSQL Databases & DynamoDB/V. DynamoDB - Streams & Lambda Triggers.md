@@ -6,15 +6,19 @@ This lesson from Cantrill.io explains the powerful features of **DynamoDB Stream
 
 A **DynamoDB Stream** is a **time-ordered list** of item-level changes (inserts, updates, and deletes) that occur in a DynamoDB table.
 
-- The stream maintains a **24-hour rolling window** of changes.
-- Implemented under the hood using **Amazon Kinesis Streams**.
+- The stream is a **24-hour rolling window** of changes ( Implemented under the hood using **Amazon Kinesis Streams**).
 - **Enabled per-table** and **configured with a specific view type** to control the data recorded.
+- View setting influences exactly what information is added to the stream everytime an item change occurs.
 
+> Anytime a change occurs in DynamoDb , the change is recorded chronogically within a DynamoDb stream.
+ 
 ## Stream View Types
 
 ![alt text](./Images/image-8.png)
 
 DynamoDB Streams can be configured with one of the following **view types**, which determine what data is written to the stream when a change occurs:
+
+> In the diagram the later row shows that the 4th item is removed (i.e, updated).
 
 ### 1. **Keys Only**
 
@@ -25,8 +29,8 @@ DynamoDB Streams can be configured with one of the following **view types**, whi
 ### 2. **New Image**
 
 - Contains the **entire item after the change**.
-- Useful if the downstream process only cares about the **resulting state** of the item.
-- Cannot determine what specifically changed from the previous state.
+- Useful if the downstream process only cares about the **resulting state** of the item(shows the state of the item after removal).
+- Cannot determine **what specifically changed** from the previous state.
 
 ### 3. **Old Image**
 

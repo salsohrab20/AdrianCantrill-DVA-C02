@@ -1,6 +1,6 @@
 # Amazon Cognito
 
-![img_1.png](img_1.png)
+![img_1.png](Images/img_1.png)
 
 ## Overview
 

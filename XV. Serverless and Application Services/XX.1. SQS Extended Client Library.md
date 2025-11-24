@@ -6,7 +6,7 @@ Used when handling messages over SQS larger then 256KB
 
 ## Key Concepts
 
-![img.png](img.png)
+![img.png](Images/img.png)
 
 - Has hard limit of being tied to S3 bucket.
 - Can send messages worth the size of 2GB.
