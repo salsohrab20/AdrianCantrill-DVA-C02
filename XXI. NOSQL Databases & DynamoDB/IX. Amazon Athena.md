@@ -28,6 +28,7 @@
 Athena uses a **Schema on Read** approach:
 
 - The **original data** in S3 is **left untouched**.
+- Schema translates data -> relational-like when read.
 - When you define a **schema**, it acts like a **lens** that interprets the structure of raw data at **query time**.
 
 > Unlike traditional databases that require data to be **loaded** and **structured** before querying, Athena reads and interprets data on the fly using predefined schema.
@@ -121,4 +122,4 @@ Athena -> Lambda (Connector) -> External Data Source
 
 ## Summary
 
-Amazon Athena is a **powerful, flexible, and cost-effective tool** for querying data stored in S3. It works on a **serverless model**, employs **schema-on-read**, and supports **federated querying** of other AWS and non-AWS data sources. Understanding its **strengths and limitations** is key for success in both the **AWS SA-C03 exam** and real-world implementations.
+Amazon Athena is a **powerful, flexible, and cost-effective tool** for querying data stored in S3. It works on a **serverless model**, employs **schema-on-read**, and supports **federated querying** of other AWS and non-AWS data sources. Understanding its **strengths and limitations** is key for success in both the **AWS DVA-C02 exam** and real-world implementations.
