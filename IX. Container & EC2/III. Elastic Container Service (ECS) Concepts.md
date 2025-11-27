@@ -23,6 +23,7 @@ ECS is responsible for orchestrating where and how to run containers. It functio
 
 ### 2. **Container Definition**
 
+- Tells ECS about the container images.
 - Specifies **container image**, **ports**, and other essential runtime configurations.
 - Example:
   ```json
@@ -40,6 +41,7 @@ ECS is responsible for orchestrating where and how to run containers. It functio
 - Stores **container configurations**, **resources (CPU, memory)**, **networking mode**, and **IAM role permissions**.
 - Task definitions can include multiple containers.
 - Includes **task role** to provide AWS service access.
+- **Task role** is an IAM role which the task can assume.
 
 ### 4. **Task**
 
