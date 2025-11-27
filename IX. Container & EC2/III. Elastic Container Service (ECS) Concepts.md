@@ -42,6 +42,7 @@ ECS is responsible for orchestrating where and how to run containers. It functio
 - Task definitions can include multiple containers.
 - Includes **task role** to provide AWS service access.
 - **Task role** is an IAM role which the task can assume.
+- Best practical way to give ECS permission to access AWS products & services.
 
 ### 4. **Task**
 
