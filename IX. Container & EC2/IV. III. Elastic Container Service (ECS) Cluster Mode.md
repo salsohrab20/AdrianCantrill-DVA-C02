@@ -13,6 +13,7 @@ In this lesson, we explore the two different modes available for running contain
 
 ![alt text](./Images/image-8.png)
 
+- Within EC2 mode we start with ECS management components.
 - ECS management components **handle scheduling, orchestration, and cluster management**.
 - The ECS cluster runs within a **VPC**, leveraging multiple **Availability Zones (AZs)**.
 - You specify an initial **EC2 instance size**, managed by an **Auto Scaling Group**.
