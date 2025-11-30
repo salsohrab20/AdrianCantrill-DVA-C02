@@ -1,4 +1,4 @@
-# AWS SA C03: AWS Account Structure Creation
+# AWS DVA C02: AWS Account Structure Creation
 
 In this demo lesson, we create and configure a multi-account structure within AWS Organizations, setting up roles to facilitate cross-account access between a general, production, and development AWS account. This structure will serve as the foundation for the remainder of the course.
 
