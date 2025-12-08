@@ -25,6 +25,7 @@ This lesson continues from the previous discussion on NoSQL databases, explainin
 
 - **Structure:**
   - Similar to key-value but allows multiple keys.
+  - Offers grouping of items called table.
   - Each row has a primary key (partition key) and an optional secondary key (sort key).
 - **Example Use Case:** Managing user sessions, storing log data, or applications with dynamic data structures.
 - **Characteristics:**
@@ -79,7 +80,7 @@ This lesson continues from the previous discussion on NoSQL databases, explainin
 
 ## Conclusion
 
-Understanding these NoSQL database types is crucial for designing scalable and efficient solutions in AWS. For the AWS SA C03 exam, identifying the right database type based on the scenario is key.
+Understanding these NoSQL database types is crucial for designing scalable and efficient solutions in AWS. For the AWS DVA-C02 exam, identifying the right database type based on the scenario is key.
 
 ### **Quick Exam Guide:**
 
